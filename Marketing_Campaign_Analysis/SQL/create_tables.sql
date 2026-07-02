@@ -1,0 +1,50 @@
+
+CREATE TABLE marketing_customers (
+    ID INT PRIMARY KEY,
+    Year_Birth INT,
+    Education VARCHAR(50),
+    Marital_Status VARCHAR(50),
+    Income DECIMAL(12,2),
+    Kidhome INT,
+    Teenhome INT,
+    Dt_Customer DATE,
+    Recency INT,
+    Country VARCHAR(50),
+
+    MntWines DECIMAL(12,2),
+    MntFruits DECIMAL(12,2),
+    MntMeatProducts DECIMAL(12,2),
+    MntFishProducts DECIMAL(12,2),
+    MntSweetProducts DECIMAL(12,2),
+    MntGoldProds DECIMAL(12,2),
+
+    NumDealsPurchases INT,
+    NumWebPurchases INT,
+    NumCatalogPurchases INT,
+    NumStorePurchases INT,
+    NumWebVisitsMonth INT,
+
+    AcceptedCmp1 INT,
+    AcceptedCmp2 INT,
+    AcceptedCmp3 INT,
+    AcceptedCmp4 INT,
+    AcceptedCmp5 INT,
+    Response INT,
+    Complain INT,
+
+    Age INT,
+    Total_Spend DECIMAL(12,2),
+    Total_Purchases INT,
+    Children INT,
+    Age_Band VARCHAR(20),
+    Income_Band VARCHAR(20),
+
+    High_Income INT,
+    Young_Customer INT,
+    Campaign_Responder INT,
+    High_Web_Engagement INT,
+    Family_Customer INT,
+    High_Spender INT,
+    High_Value_Customer INT,
+    Underserved_Customer INT
+);
